@@ -1,0 +1,6 @@
+tasks
+=======
+1. Build your header: 
+a) how to insertbackground image.
+b) reduce the gap between the text.
+c) 

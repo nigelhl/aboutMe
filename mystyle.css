@@ -1,0 +1,89 @@
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.masthead-intro{
+    margin-bottom: -0.1em;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+}
+
+.masthead-heading {
+    margin-top: -0.2em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 540px) {
+    .masthead {
+        padding: 3em;
+    }
+
+    .masthead-heading {
+        font-size: 3em;
+    }
+
+    .content-footer { 
+        font-size: 50%;
+        padding: -3em;
+    }
+
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+    text-align: center;
+}
+
+.section-into > p,
+.section-location > p,
+.content-footer > p {
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.masthead {
+    padding: 6em 0;
+    background-image: url('https://download.unsplash.com/photo-1433959352364-9314c5b6eb0b');
+}
+
+.masthead-intro {
+    margin-bottom: 0.1em;
+}
+
+.masthead-heading {
+    margin-top: -0.2em;
+}
+
+.content-footer,
+.section-intro,
+.section-location,
+.section-aboutme {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.social > li {
+    display: inline-block;
+}
+
+.content-footer > p {
+    color: white;
+}
+
+.content-footer {
+    background-color:  #FF0000;
+}
+
+h1, h2 {
+    color: #FF0000;
+}
